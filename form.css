@@ -1,0 +1,69 @@
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cornflowerblue;
+}
+.box{
+    width:450px;
+    height: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    border-radius: 10px;
+    
+    font-size: 16px;
+    padding: 30px;
+}
+h1{
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+label
+{   margin-left: 17px;
+    font-size: 22px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+input[type="email"],[type="password"]{
+    width: 88%;
+    height: 35px;
+    display: block;
+    margin-left: 13px;
+    padding-left: 15px;
+    border: 1px solid grey;
+    margin-top: 10px;
+    border: 2pxsolid;
+    border-color: lightgrey;
+    outline: none;
+    font-size: large;
+    transition: 200ms;
+    margin-bottom: 30px;
+}
+input:hover
+{
+    border: 1px solid rgb(42, 40, 40);
+}
+.btn
+{
+    
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    transition: transform 300ms ease-in-out;
+}
+button
+{
+    font-size: 18px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: blue;
+    border: none;
+    color: white;
+}
+.btn:hover
+{
+    transform: scale(.9);
+}
