@@ -1,0 +1,98 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav
+{
+    /* display: flex; */
+    background-color: rgb(190, 51, 51);
+    padding: .5%;
+}
+nav ul
+{
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly ;
+    color: white;
+}
+nav ul li
+{
+    display: flex;
+    /* justify-content: space-evenly; */
+    
+}
+
+figure
+{
+    
+    margin-top: 4%;
+
+}
+figcaption
+{
+    margin-top: 1%;
+    /* margin-bottom: 5%; */
+    text-align: center;
+}
+h1
+{
+    margin: 3% 0%;
+
+}
+p
+{
+    line-height: 1.5em;
+}
+
+.left
+{
+    float: left;
+    margin-left: 4%;
+    max-width: 55%;
+}
+button
+{
+    padding: 1% 2%;
+    margin-top: 3%;
+    float: right;
+}
+aside
+{
+    font-size: 1em;
+    float: right;
+    width: 30%;
+    margin-right: 4%;
+}
+article
+{
+    border: 1px solid rgb(132, 131, 131);
+    margin: 7%;
+    padding: 7%;
+}
+aside .one
+{
+    background: linear-gradient(#eef, white);
+}
+aside .two
+{
+    background: linear-gradient(#dff, white);
+}
+aside .it
+{
+    font-style: italic;
+}
+span .it
+{
+    font-style: italic;
+}
