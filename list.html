@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin-left: 10%;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background:linear-gradient(to right,rgb(6, 6, 6) ,rgb(119, 119, 119),white);
+            border-color: white;
+            color: rgb(234, 233, 233);
+        }
+        h1
+        { 
+           font-size: 60px; 
+           margin-left: 2%;
+        }
+        hr
+        {
+            margin-left: 0;
+            max-width: 75%;
+            display: flex;
+            justify-content: center;
+            height: 4px;
+            background-color: rgb(32, 31, 31);
+        }
+    </style>
+</head>
+<body>
+    <h1>HTML LISTS :</h1>
+    <br>
+    <ol>
+        <h2>Ordered in Ordered</h2>
+        <li>ordered
+            <ol>
+                <li>ordered</li>
+                <li>ordered</li>
+            </ol>
+        </li>
+        <h2>Unordered in Ordered</h2>
+        <li>Ordered
+            <ul>
+                <li>unordered</li>
+                <li>Unordered</li>
+            </ul>
+        </li>
+        <h2>Unordered in Ordered inside Ordered</h2>
+        <li>ordered
+            <ol>
+                <li>ordered
+                    <ul>
+                        <li>Unordered</li>
+                        <li>Unordered</li>
+                    </ul>
+                </li>
+                <li>Ordered</li>
+            </ol>
+        </li>
+    </ol>
+    <hr>
+    <ul>
+        <h2>Ordered in Unordered</h2>
+        <li>Unordered
+            <ol>
+                <li>ordered</li>
+                <li>ordered</li>
+            </ol>
+        </li>
+        <h2>Unordered in Unordered</h2>
+        <li>Unordered
+            <ul>
+                <li>Unordered</li>
+                <li>Unordered</li>
+            </ul>
+        </li>
+        <h2>Repitative nesting</h2>
+        <li>unordered
+            <ol>
+                <li>ordered
+                    <ul>
+                        <li>unordered
+                            <ol>
+                                <li>ordered
+                                    <ul>
+                                        <li>unordered</li>
+                                    </ul>
+                                </li>
+                            </ol>
+                        </li>
+                    </ul>
+                </li>
+                <li>ordered
+                    <ul>
+                        <li>unordered</li>
+                    </ul>
+                </li>
+            </ol>
+        </li>
+    </ul>
+</body>
+</html>
